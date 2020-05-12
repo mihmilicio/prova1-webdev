@@ -112,3 +112,9 @@ label {
   flex: calc(100% / 3);
   margin: 0;
 }
+
+footer {
+  border-top: 2px solid var(--primary);
+  text-align: center;
+  margin-top: 30px;
+}
