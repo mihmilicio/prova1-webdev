@@ -102,3 +102,13 @@ label {
 .form-group.vertical {
   margin-bottom: 20px;
 }
+
+.form-group.horizontal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-group.horizontal label {
+  flex: calc(100% / 3);
+  margin: 0;
+}
